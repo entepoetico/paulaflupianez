@@ -149,18 +149,17 @@ h3.sub{font-size:clamp(1.6rem,3.5vw,2.4rem);margin:2.6rem 0 .6rem}
 <div class="wrap">
 <input type="radio" name="vista" id="t-portada" class="tab-radio" checked>
 <input type="radio" name="vista" id="t-libro" class="tab-radio">
-<input type="radio" name="vista" id="t-" class="tab-radio">
+<input type="radio" name="vista" id="t-premios" class="tab-radio">
 <input type="radio" name="vista" id="t-revistas" class="tab-radio">
 <input type="radio" name="vista" id="t-proyectos" class="tab-radio">
 <input type="radio" name="vista" id="t-agenda" class="tab-radio">
 <input type="radio" name="vista" id="t-bio" class="tab-radio">
 <input type="radio" name="vista" id="t-buzon" class="tab-radio">
 
-
 <nav aria-label="Secciones">
   <label for="t-portada">portada</label>
   <label for="t-libro">el libro</label>
-  <label for="t-">premios</label>
+  <label for="t-premios">premios</label>
   <label for="t-revistas">revistas</label>
   <label for="t-proyectos">proyectos</label>
   <label for="t-agenda">agenda</label>
@@ -190,9 +189,9 @@ h3.sub{font-size:clamp(1.6rem,3.5vw,2.4rem);margin:2.6rem 0 .6rem}
   <p class="kick">47.º Premio Internacional de Poesía Joven Arcipreste de Hita</p>
   <h2 id="h-libro" class="big">Pan recién horneado bajo el brazo</h2>
   <p class="lede">Publicado en <strong>Editorial Pre-Textos (2026)</strong>. Pan recién horneado bajo el brazo es un poemario a dos voces: la del cuerpo que se sabe enfermo y la de quien lo acompaña para, después, sentar la pérdida a la mesa. Lejos de toda épica, el libro recorre la espera, el deterioro y el duelo. Un diálogo imposible entre un padre que mengua y una hija volcada en su recuerdo, donde rabia y ternura coexisten sin resolverse.</p>
-<a class="btn" href="https://www.pre-textos.com/producto/pan-recien-horneado-bajo-el-brazo/" target="_blank" rel="noopener noreferrer">En Pre-Textos ↗</a>
-  </div>
-  <a class="btn o" href="https://www.zendalibros.com/pan-recien-horneado-bajo-el-brazo-de-paula-f-lupianez/" target="_blank" rel="noopener noreferrer">Leer 5 poemas en Zenda ↗</a>
+  <div class="btns">
+    <a class="btn" href="https://www.pre-textos.com/producto/pan-recien-horneado-bajo-el-brazo/" target="_blank" rel="noopener noreferrer">En Pre-Textos ↗</a>
+    <a class="btn o" href="https://www.zendalibros.com/pan-recien-horneado-bajo-el-brazo-de-paula-f-lupianez/" target="_blank" rel="noopener noreferrer">Leer 5 poemas en Zenda ↗</a>
   </div>
   <div class="strip two">
     <figure class="f"><div class="pic">presentación<img src="fotos/libro-1.jpg" alt="Presentación de Pan recién horneado bajo el brazo" loading="lazy" decoding="async" onerror="this.remove()"></div><figcaption>pie de foto: lugar y fecha</figcaption></figure>
@@ -210,7 +209,6 @@ h3.sub{font-size:clamp(1.6rem,3.5vw,2.4rem);margin:2.6rem 0 .6rem}
     <li><span class="y">2023</span><span><strong>Premio Málagacrea</strong><span class="d">Categoría de poesía, por <em>El lenguaje dictó y yo callé</em>.</span></span></li>
     <li><span class="y">2021</span><span><strong>3.er premio VI Certamen de microrrelatos fantásticos y de terror de la Facultad de Filosofía y Letras</strong><span class="d">Universidad de Málaga.</span></span></li>
   </ul>
-  <!-- PARA AÑADIR UNA FOTO, COPIA UN <figure> Y CAMBIA EL NÚMERO DEL ARCHIVO (fotos/premio-7.jpg…) -->
   <div class="strip">
     <figure class="f"><div class="pic">premio<img src="fotos/premio-1.jpg" alt="Premio literario, imagen 1" loading="lazy" decoding="async" onerror="this.remove()"></div><figcaption>pie de foto: lugar y fecha</figcaption></figure>
     <figure class="f"><div class="pic">premio<img src="fotos/premio-2.jpg" alt="Premio literario, imagen 2" loading="lazy" decoding="async" onerror="this.remove()"></div><figcaption>pie de foto: lugar y fecha</figcaption></figure>
@@ -222,11 +220,9 @@ h3.sub{font-size:clamp(1.6rem,3.5vw,2.4rem);margin:2.6rem 0 .6rem}
 </section>
 
 <!-- REVISTAS -->
-<section id="publicaciones" class="card green view" aria-labelledby="h-revistas">
+<section id="revistas" class="card green view" aria-labelledby="h-revistas">
   <h2 id="h-revistas">Publicaciones en revistas, prensa y antologías</h2>
-
-  <!-- PARA ENLAZAR: añade tras el </strong>… <a href="URL" target="_blank" rel="noopener noreferrer">ver ↗</a> -->
-<ul class="list">
+  <ul class="list">
     <li><span class="y">Zenda</span><span><strong>Zenda Libros</strong>: reseña de <em>Canal, de Javier Fernández: Un libro que no se agota</em> <a href="https://www.zendalibros.com/un-libro-que-no-se-agota/" target="_blank" rel="noopener noreferrer">leer ↗</a></span></li>
     <li><span class="y">2026</span><span><strong>Revista Centauros</strong>: poema <em>Migas con chorizo</em> <a href="https://revistacentauros.wordpress.com/wp-content/uploads/2026/08/revista-centauros-no13-agosto-2026.pdf" target="_blank" rel="noopener noreferrer">leer ↗</a></span></li>
     <li><span class="y">2025</span><span><strong>Revista Casapaís</strong>: poema en <em>«La boca o la herida»</em> <a href="https://www.casapais.org/la-boca-o-la-herida/paula-fernandez-lupianez" target="_blank" rel="noopener noreferrer">leer ↗</a></span></li>
@@ -255,7 +251,6 @@ h3.sub{font-size:clamp(1.6rem,3.5vw,2.4rem);margin:2.6rem 0 .6rem}
     <li><span class="y">2024–25</span><span><strong>Revista Desquiciadas</strong>: coedición, diseño de maqueta y corrección ortotipográfica</span></li>
     <li><span class="y">2024</span><span><strong>Letraversal y COL&amp;COL</strong>: asistencia editorial y traducción literaria</span></li>
   </ul>
-  <!-- PARA AÑADIR UNA CUBIERTA, COPIA UN <figure> Y CAMBIA EL NÚMERO (fotos/cubierta-7.jpg…) -->
   <div class="strip cub">
     <figure class="f"><div class="pic">cubierta<img src="fotos/cubierta-1.jpg" alt="Cubierta maquetada, imagen 1" loading="lazy" decoding="async" onerror="this.remove()"></div><figcaption>título y editorial</figcaption></figure>
     <figure class="f"><div class="pic">cubierta<img src="fotos/cubierta-2.jpg" alt="Cubierta maquetada, imagen 2" loading="lazy" decoding="async" onerror="this.remove()"></div><figcaption>título y editorial</figcaption></figure>
@@ -272,44 +267,40 @@ h3.sub{font-size:clamp(1.6rem,3.5vw,2.4rem);margin:2.6rem 0 .6rem}
   <svg class="wave" viewBox="0 0 600 200" aria-hidden="true" style="opacity:.3"><path d="M0 130C90 30 170 50 250 110S410 190 490 100 570 50 600 80V200H0Z" fill="none" stroke="#A82020" stroke-width="22"/></svg>
   <div class="row">
     <div>
-      <h2 id="h-agenda">agenda y eventos</h2>
+      <h2 id="h-agenda">eventos</h2>
       <time class="date" datetime="2027-03-09">09.03.27</time>
       <p class="place">Madrid · Círculo de Bellas Artes · mesa redonda «Alt Lit» junto a Carolina Yuste y Nieves Chillón</p>
       <div class="btns"><label for="t-buzon" class="btn" style="background:var(--ink);color:var(--paper-2)">Invitar a lectura o festival →</label></div>
     </div>
     <ul class="list" style="align-self:end">
-      <li><span class="y">Oct. 26</span><span><strong>Bib. Pública Provincial Francisco Villaespesa (Almería)</strong><span class="d">Lectura y presentación con el Centro Andaluz de las Letras (CAL).</span></span></li>
-      <!-- LÍNEAS LIBRES PARA PRÓXIMOS EVENTOS (bórralas si no las usas) -->
-      <li class="ph"><span class="y">MES. AÑO</span><span><strong>lugar o acto</strong><span class="d">detalle: lectura, mesa, presentación…</span></span></li>
-      <li class="ph"><span class="y">MES. AÑO</span><span><strong>lugar o acto</strong><span class="d">detalle: lectura, mesa, presentación…</span></span></li>
+      <li><span class="y">Oct. 26</span><span><strong>Bib. Pública Provincial Francisco Villaespesa (Almería)</strong><span class="d">Lectura y presentación de <em>Pan recién horneado bajo el brazo</em> con el Centro Andaluz de las Letras.</span></span></li>
+      <li class="ph"><span class="y">Sep. 2026</span><span><strong>Centro Andaluz de las Letras (Málaga)</strong><span class="d">Lectura y presentación de <em>Pan recién horneado bajo el brazo</em> con el Centro Andaluz de las Letras</span></span></li>
+      <li class="ph"><span class="y">Jun. 2026</span><span><strong>Ayuntamiento Alcalá la Real (Jaén)</strong><span class="d">Entrega del 47.º Premio Arcipreste de Hita y presentación del poemario.</span></span></li>
     </ul>
   </div>
   <h3 class="sub">eventos pasados</h3>
   <ul class="list" style="max-width:52rem">
-    <li><span class="y">Jun. 26</span><span><strong>Alcalá la Real y Málaga</strong><span class="d">Entrega del 47.º Premio Arcipreste de Hita y presentaciones del poemario.</span></span></li>
-    <!-- LÍNEAS LIBRES PARA EVENTOS PASADOS, LOS MÁS RECIENTES ARRIBA (bórralas si no las usas) -->
-    <li class="ph"><span class="y">MES. AÑO</span><span><strong>lugar o acto</strong><span class="d">detalle: lectura, mesa, presentación…</span></span></li>
-    <li class="ph"><span class="y">MES. AÑO</span><span><strong>lugar o acto</strong><span class="d">detalle: lectura, mesa, presentación…</span></span></li>
-    <li class="ph"><span class="y">MES. AÑO</span><span><strong>lugar o acto</strong><span class="d">detalle: lectura, mesa, presentación…</span></span></li>
-    <li class="ph"><span class="y">MES. AÑO</span><span><strong>lugar o acto</strong><span class="d">detalle: lectura, mesa, presentación…</span></span></li>
-    <li class="ph"><span class="y">MES. AÑO</span><span><strong>lugar o acto</strong><span class="d">detalle: lectura, mesa, presentación…</span></span></li>
+        <li class="ph"><span class="y">May. 2026</span><span><strong>Ateneo de Málagal</strong><span class="d">Ciclo poético: «Generaciones juntas: poéticas y poemas», recital.</span></span></li>
+    <li class="ph"><span class="y">Nov. 2025</span><span><strong>Centro Andaluz de las Letras</strong><span class="d">Presentación del último número de la colección Letras de Papel, 'Hoy y otros textos'</span></span></li>
+    <li class="ph"><span class="y">Mar. 2025</span><span><strong>Málaga de Festival</strong><span class="d">Coloquio presentación 'Desquiciadas', ciclo Paul Auster</span></span></li>
+    <li class="ph"><span class="y">May. 2024</span><span><strong>Centro Andaluz de las Letras</strong><span class="d">Presentación revista plástica 'Desquiciadas'</span></span></li>
+
   </ul>
 </section>
 
 <!-- BIO -->
 <section id="bio" class="card paper view" aria-labelledby="h-bio">
-  <h2 id="h-bio">nota biográfica</h2>
+  <h2 id="h-bio">Nota biográfica</h2>
   <div class="row mid">
     <div>
-      <p>Me llamo <strong>Paula Fernández Lupiáñez</strong> (Málaga, 2002). Soy traductora, correctora, maquetadora y autora, y compagino el oficio del libro con el estudio de las oposiciones a bibliotecaria.</p>
-      <p>Estudié Traducción e Interpretación (inglés, francés e italiano) y un máster en Patrimonio Literario. Publico poemas en revistas y antologías, y en 2026 salió en Pre-Textos <strong><em>Pan recién horneado bajo el brazo</em></strong>.</p>
-      <p>Me formé leyendo a Pablo García Casado, Berta García Faet, Rodrigo García Marina, Irene Solà, Borges, Cortázar, Mariana Enríquez, Idea Vilariño, Pizarnik y Maggie Nelson. Valoro la excentricidad formal, la segunda persona y cerrar cada poema en seco.</p>
+      <p><strong>Paula Fernández Lupiáñez</strong> (Málaga, 2002) es graduada en Traducción e Interpretación y máster en Gestión del Patrimonio Literario y Lingüístico Español por la Universidad de Málaga..</p>
+      <p>Escribe, edita y traduce. En 2026 publica en Pre-Textos <strong><em>Pan recién horneado bajo el brazo</em></strong>, 47.º Premio Internacional de Poesía Arcipreste de Hita.</p>
+      <p>En paralelo, colabora en la revista plástica y literaria <em>Desquiciadas</em>.</p>
       <div class="links">
         <a href="https://www.instagram.com/paulaflupianez/" target="_blank" rel="me noopener noreferrer">instagram @paulaflupianez ↗</a>
         <a href="mailto:paulaflupianez@gmail.com">paulaflupianez@gmail.com</a>
       </div>
     </div>
-    <!-- FOTOS: las 4 cambian solas cada 4 s (se pausan al pasar el ratón). Archivos: fotos/bio-1.jpg … bio-4.jpg -->
     <div class="phone" role="img" aria-label="Fotos de Paula">
       <div class="screen">
         <div class="slide">foto 1<img src="fotos/bio-1.jpg" alt="Paula F. Lupiáñez, retrato 1" loading="lazy" decoding="async" onerror="this.remove()"></div>
@@ -323,13 +314,13 @@ h3.sub{font-size:clamp(1.6rem,3.5vw,2.4rem);margin:2.6rem 0 .6rem}
 
 <!-- BUZÓN -->
 <section id="buzon" class="card plum view" aria-labelledby="h-buzon">
-  <h2 id="h-buzon">buzón abierto</h2>
-  <p class="lede">Para festivales, lecturas, encargos de maquetación o traducción. Escríbeme y cuéntame de qué va.</p>
+  <h2 id="h-buzon">contacto</h2>
+  <p class="lede">Para festivales, lecturas, encargos, ¿sugerencias?. Cuéntame aquí:</p>
   <a class="mail" href="mailto:paulaflupianez@gmail.com">paulaflupianez@gmail.com</a>
 </section>
 
 </main>
-<footer><span>© Paula F. Lupiáñez · edición digital</span><span>Málaga, ES</span></footer>
+<footer><span>© Paula F. Lupiáñez</span><span>Málaga, ES</span></footer>
 </div>
 
 </body>
