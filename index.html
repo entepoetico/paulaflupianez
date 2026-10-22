@@ -121,7 +121,7 @@ label{cursor:pointer}
 footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem 2rem;color:var(--paper-2);font-style:italic;font-size:.92rem;padding:.4rem .5rem 1rem;opacity:.8}
 @media(max-width:900px){.hero,.row,nav{border-radius:1.4rem}}
 @media(max-width:560px){.strip.two,.strip.three{grid-template-columns:1fr}.f .pic{max-width:24rem}}
-@media(prefers-reduced-motion:reduce){.view{animation:none!important}.btn,nav label,.f .pic{transition:none}}
+@media(prefers-reduced-motion:reduce){.slide{animation:none}.slide:first-child{opacity:1}.view{animation:none!important}.btn,nav label,.f .pic{transition:none}}
 
 h3.sub{font-size:clamp(1.6rem,3.5vw,2.4rem);margin:2.6rem 0 .6rem}
 .mail{display:inline-block;font-weight:700;font-style:italic;font-size:clamp(1.4rem,5vw,3rem);letter-spacing:-.03em;line-height:1.15;text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:8px;overflow-wrap:anywhere}
@@ -133,7 +133,6 @@ h3.sub{font-size:clamp(1.6rem,3.5vw,2.4rem);margin:2.6rem 0 .6rem}
 .slide:nth-child(2){animation-delay:4s}.slide:nth-child(3){animation-delay:8s}.slide:nth-child(4){animation-delay:12s}
 .phone:hover .slide{animation-play-state:paused}
 @keyframes slide{0%{opacity:0}3%{opacity:1}25%{opacity:1}28%{opacity:0}100%{opacity:0}}
-@media(prefers-reduced-motion:reduce){.slide{animation:none}.slide:first-child{opacity:1}}
 .ph{opacity:.55}
 .row.mid{align-items:center}
 </style>
